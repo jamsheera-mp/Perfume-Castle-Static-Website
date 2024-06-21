@@ -1,0 +1,214 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar .navbar-brand img {
+    height: 50px;
+}
+.perfume-castle-name{
+    color:rgba(255, 215, 0,0.4);
+    font-size: 25px;
+}
+.navbar .nav-link {
+    color: #fff !important;
+    margin: 0 10px;
+}
+
+.navbar .nav-link:hover {
+    color: #ddd !important;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+   
+    margin-bottom: 20px;
+    opacity: 0;
+    
+    transition: opacity 1s ease-in-out;
+    
+    
+}
+
+.main-heading.visible {
+    opacity: 1;
+}
+
+.fade-in-image {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in-image.visible {
+    opacity: 1;
+}
+
+.home{
+    background-color: black;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(255, 215, 0, 0.4));
+}
+.home-image-container img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.about-img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.about-text p {
+    color: #ddd;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.contact-area{
+    background-color: black;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(255, 215, 0, 0.4));
+}
+.contact-info h4 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer h5 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.footer a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.footer a:hover {
+    color: #ddd;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.caption-container {
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Floating WhatsApp Icon CSS */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-float i {
+    margin-top: 0;
+}
+
+.whatsapp-float:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #128c7e;
+}
+/* Inspired Brands Section CSS */
+/* .brands {
+    background-color:;
+} */
+
+.brand-logo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.brand-logo img:hover {
+    transform: scale(1.1);
+}
+.brand-item.hidden {
+    display: none;
+}
+#show-more {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding:5px 10px;
+    font-size: 14px;
+}
+
+#show-more:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.fa-instagram,.fa-facebook-f,.fa-whatsapp {
+    font-size: 25px; /* Adjust icon size here */
+    padding-right: 5px;
+}
